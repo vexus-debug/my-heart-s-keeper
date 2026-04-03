@@ -102,7 +102,7 @@ const ProductCard = ({ product }: { product: typeof products[0] }) => {
 
       <div className="p-5 flex flex-col flex-1">
         <p className="text-[10px] font-mono text-muted-foreground tracking-wider mb-1">{product.model}</p>
-        <h3 className="font-display text-sm font-bold text-foreground leading-snug mb-2">
+        <h3 className="font-display text-sm font-medium text-foreground leading-snug mb-2">
           {product.name}
         </h3>
 
