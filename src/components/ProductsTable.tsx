@@ -76,6 +76,13 @@ const products = [
     description: "Consistent, standardised acuity testing every time. LED back-illumination delivers uniform brightness across the entire chart — no hot spots, no shadows. LogMAR and Snellen optotypes on one panel with red-green duochrome and contrast sensitivity targets built in.",
   },
   {
+    name: "Digital VA Chart",
+    model: "DVA‑100",
+    category: "Diagnostic",
+    image: digitalVaChartImg,
+    description: "Modernise your acuity testing. The DVA‑100 digital visual acuity system displays randomised optotypes on a calibrated monitor — eliminating chart memorisation. Remote-controlled with multiple test modes including LogMAR, Snellen, contrast sensitivity, and duochrome, all from a single screen.",
+  },
+  {
     name: "Pachymeter",
     model: "PM‑550",
     category: "Diagnostic",
