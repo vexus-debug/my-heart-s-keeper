@@ -27,11 +27,18 @@ const products = [
     description: "See what others miss. The SL‑500 delivers crystal-clear, high-magnification views of the cornea, iris, and lens — so you can catch early pathology before it progresses. 5-step magnification with premium LED illumination means fewer repeat exams and faster, more confident diagnoses.",
   },
   {
-    name: "Auto Refractometer",
-    model: "AR‑800",
+    name: "Autorefractor & Keratometer",
+    model: "ARK‑800",
     category: "Diagnostic",
-    image: autorefractorImg,
-    description: "Cut refraction time in half. The AR‑800 delivers accurate objective measurements in seconds — no patient coaching required. Seamless EMR integration means prescriptions flow straight into your system. Perfect for busy clinics that can't afford to slow down.",
+    image: autorefractorKeratometerImg,
+    description: "Two instruments in one. The ARK‑800 delivers accurate auto-refraction and corneal curvature measurements simultaneously — cutting exam time in half. Touchscreen interface, automatic alignment, and seamless EMR integration make it the ideal workhorse for busy clinics.",
+  },
+  {
+    name: "Auto Refractor RM960",
+    model: "RM‑960",
+    category: "Diagnostic",
+    image: autorefractorRm960Img,
+    description: "Fast, precise, and fully automatic. The RM‑960 computer optometer delivers reliable sphere, cylinder, and axis readings with minimal patient cooperation. Compact design with built-in keratometry and a clear LCD display — perfect for high-throughput refraction workflows.",
   },
   {
     name: "Non‑contact Tonometer",
