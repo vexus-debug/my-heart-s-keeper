@@ -2,7 +2,9 @@ import { useState } from "react";
 import { ChevronDown, ArrowRight, Sparkles } from "lucide-react";
 
 import slitLampImg from "@/assets/products/slit-lamp.jpg";
-import autorefractorImg from "@/assets/products/autorefractor.jpg";
+import autorefractorKeratometerImg from "@/assets/products/autorefractor-keratometer.jpg";
+import autorefractorRm960Img from "@/assets/products/autorefractor-rm960.jpg";
+import digitalVaChartImg from "@/assets/products/digital-va-chart.jpg";
 import tonometerImg from "@/assets/products/tonometer.jpg";
 import phoropterImg from "@/assets/products/phoropter.jpg";
 import trialLensImg from "@/assets/products/trial-lens.jpg";
@@ -27,11 +29,18 @@ const products = [
     description: "See what others miss. The SL‑500 delivers crystal-clear, high-magnification views of the cornea, iris, and lens — so you can catch early pathology before it progresses. 5-step magnification with premium LED illumination means fewer repeat exams and faster, more confident diagnoses.",
   },
   {
-    name: "Auto Refractometer",
-    model: "AR‑800",
+    name: "Autorefractor & Keratometer",
+    model: "ARK‑800",
     category: "Diagnostic",
-    image: autorefractorImg,
-    description: "Cut refraction time in half. The AR‑800 delivers accurate objective measurements in seconds — no patient coaching required. Seamless EMR integration means prescriptions flow straight into your system. Perfect for busy clinics that can't afford to slow down.",
+    image: autorefractorKeratometerImg,
+    description: "Two instruments in one. The ARK‑800 delivers accurate auto-refraction and corneal curvature measurements simultaneously — cutting exam time in half. Touchscreen interface, automatic alignment, and seamless EMR integration make it the ideal workhorse for busy clinics.",
+  },
+  {
+    name: "Auto Refractor RM960",
+    model: "RM‑960",
+    category: "Diagnostic",
+    image: autorefractorRm960Img,
+    description: "Fast, precise, and fully automatic. The RM‑960 computer optometer delivers reliable sphere, cylinder, and axis readings with minimal patient cooperation. Compact design with built-in keratometry and a clear LCD display — perfect for high-throughput refraction workflows.",
   },
   {
     name: "Non‑contact Tonometer",
@@ -67,6 +76,13 @@ const products = [
     category: "Diagnostic",
     image: vaChartImg,
     description: "Consistent, standardised acuity testing every time. LED back-illumination delivers uniform brightness across the entire chart — no hot spots, no shadows. LogMAR and Snellen optotypes on one panel with red-green duochrome and contrast sensitivity targets built in.",
+  },
+  {
+    name: "Digital VA Chart",
+    model: "DVA‑100",
+    category: "Diagnostic",
+    image: digitalVaChartImg,
+    description: "Modernise your acuity testing. The DVA‑100 digital visual acuity system displays randomised optotypes on a calibrated monitor — eliminating chart memorisation. Remote-controlled with multiple test modes including LogMAR, Snellen, contrast sensitivity, and duochrome, all from a single screen.",
   },
   {
     name: "Pachymeter",
